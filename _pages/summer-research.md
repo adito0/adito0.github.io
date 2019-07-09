@@ -4,7 +4,7 @@ permalink: /summer-research/
 title: "Summer Research Posts by Tags"
 author_profile: true
 header:
-    image: "/images/prosARM.jpg"
+    image: "/images/prosARM.jpg" = 100x
 ---
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
