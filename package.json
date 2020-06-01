@@ -1,39 +1,36 @@
-// 20200602113031
-// https://raw.githubusercontent.com/adito0/adito0.github.io/00212e36732a5c87bf9ac075ce4bd571ad3040dc/package.json
-
 {
     "name": "gatsby-starter-photon",
     "description": "Gatsby photon starter",
     "version": "1.0.0",
     "author": "Hunter Chang",
     "dependencies": {
-      "gatsby": "^2.2.9",
-      "gatsby-plugin-manifest": "^2.0.24",
-      "gatsby-plugin-offline": "^2.0.25",
-      "gatsby-plugin-react-helmet": "^3.0.10",
-      "gatsby-plugin-sass": "^2.0.11",
-      "node-sass": "^4.11.0",
-      "react": "^16.8.5",
-      "react-dom": "^16.8.5",
-      "react-helmet": "^5.2.0"
+        "gatsby": "^2.2.9",
+        "gatsby-plugin-manifest": "^2.0.24",
+        "gatsby-plugin-offline": "^2.0.25",
+        "gatsby-plugin-react-helmet": "^3.0.10",
+        "gatsby-plugin-sass": "^2.0.11",
+        "node-sass": "^4.11.0",
+        "react": "^16.8.5",
+        "react-dom": "^16.8.5",
+        "react-helmet": "^5.2.0"
     },
     "keywords": [
-      "gatsby"
+        "gatsby"
     ],
     "license": "MIT",
     "scripts": {
-      "build": "gatsby build",
-      "develop": "gatsby develop",
-      "format": "prettier --write '**/*.js'",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "deploy": "gatsby build && gh-pages -d public -b master"
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write '**/*.js'",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "gatsby build && gh-pages -d public -b master"
     },
     "devDependencies": {
-      "gh-pages": "^2.0.1",
-      "prettier": "^1.14.2"
+        "gh-pages": "^2.0.1",
+        "prettier": "^1.14.2"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/gatsbyjs/gatsby-starter-photon"
+        "type": "git",
+        "url": "https://github.com/gatsbyjs/gatsby-starter-photon"
     }
-  }
+}
